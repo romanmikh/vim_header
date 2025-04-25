@@ -9,12 +9,11 @@
 * Updates "Updated" line only when buffer is changed
 * Usage: `:Header` in vim NORMAL mode
 
-Don't forget to set your `$HEADERUSER` and `$HEADEREMAIL` variables!
+Make sure to set your `$HEADERUSER` and `$HEADEREMAIL` variables in the below code!
 
 ## Usage 
 
-### No plugin manager
-Copy `header.vim` to your `~/.vim//plugin/` folder. You're set!
+### No plugin manager needed
 
 ```
 mkdir -p ~/.vim/plugin && git clone https://github.com/romanmikh/vim_header.git && mv -v vim_header/header.vim ~/.vim/plugin/header.vim
