@@ -17,10 +17,10 @@ Make sure to set your `$HEADERUSER` and `$HEADEREMAIL` variables in the below co
 
 ```
 mkdir -p ~/.vim/plugin && git clone https://github.com/romanmikh/vim_header.git && mv -v vim_header/header.vim ~/.vim/plugin/header.vim
-export HEADERUSER=<your_name>
-export HEADEREMAIL=<your_email>
-source ~/.bashrc
 rm -rf vim_header
+export HEADERUSER=your_name
+export HEADEREMAIL=your_email
+source ~/.bashrc
 ```
 
 ## Credit
