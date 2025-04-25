@@ -1,39 +1,27 @@
-# vim-42header
-a (better) vim header for 42 projects
+# vim_header
 
 ![fancy header image](http://i.imgur.com/WTscMvi.png)
 
 ## Features
-* Passes `norminette`
+* Works with multiple file formats
 * Elegant trimming of long strings
 * Updates filename line when changed
 * Updates "Updated" line only when buffer is changed
-* Works with all formats that default supports
-* Binds to `F1` for easy access
-* Overrides `:Stdheader` for school vim installs
+* Usage: `:Header` in vim NORMAL mode
 
-Also, don't forget to set your `$USER` and `$MAIL` variables, marvin lives!
+Don't forget to set your `$HEADERUSER` and `$HEADEREMAIL` variables!
 
 ## Usage 
 
 ### No plugin manager
-Copy `42header.vim` to your `~/.vim/after/plugin/` folder. You're set!
+Copy `header.vim` to your `~/.vim//plugin/` folder. You're set!
 
-### pathogen
 ```
-git clone https://github.com/pbondoer/vim-42header.git --recursive && mv -v vim-42header ~/.vim/bundle/
-```
-
-### vim-plug
-If you use vim-plug or any other plugin manager, simply add this line to your
-plugin initialization:
-
-```vim
-Plug 'pbondoer/vim-42header'
+git clone https://github.com/romanmikh/vim_header.git && mv -v vim_header/header.vim ~/.vim/plugin/header.vim
+export HEADERUSER=<your_name>
+export HEADEREMAIL=<your_email>
+source ~/.bashrc
 ```
 
-## Why?
-Part of the **Mexican Standoff** rush, I decided to add a few bonus features
-and I now use this as my header for 42 files. On my linux setup, I have changed
-the variable names in order to be able to have my own environment, but still
-have a functional school environment. Feel free to add things :)!
+## Credit
+Adapted for personal use from [https://github.com/pbondoer/vim-42header]
