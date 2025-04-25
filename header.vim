@@ -2,10 +2,10 @@
 "                                                                              "
 "    header.vim                                                                "
 "                                                                              "
-"    By: your_name <your_email>                                                "
+"    By: romanmikh <roman.mikhaylenko14@gmail.com>                             "
 "                                                                              "
-"    Created: 2025/04/25 23:06:36 by your_name                                 "
-"    Updated: 2025/04/25 23:06:41 by your_name                                 "
+"    Created: 2025/04/25 23:09:02 by romanmikh                                 "
+"    Updated: 2025/04/25 23:09:07 by romanmikh                                 "
 "                                                                              "
 " **************************************************************************** "
 
@@ -15,7 +15,7 @@ let s:fill		= '*'
 let s:length	= 80
 let s:margin	= 5
 
-let s:types		= {
+s:types		= {
 			\'\.c$\|\.h$\|\.cc$\|\.hh$\|\.cpp$\|\.hpp$\|\.tpp$\|\.php\|\.glsl':
 			\['/*', '*/', '*'],
 			\'\.htm$\|\.html$\|\.xml$':
