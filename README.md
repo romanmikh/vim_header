@@ -1,9 +1,9 @@
 # vim_header
 
-![fancy header image](http://i.imgur.com/WTscMvi.png)
+![headers](https://imgur.com/a/HcFphoE)
 
 ## Features
-* Works with multiple file formats
+* Comment strings adapt to many file formats (.c/.cpp/.py/.php/.js/...)
 * Elegant trimming of long strings
 * Updates filename line when changed
 * Updates "Updated" line only when buffer is changed
@@ -24,4 +24,4 @@ source ~/.bashrc
 ```
 
 ## Credit
-Adapted for personal use from [https://github.com/pbondoer/vim-42header]
+Adapted for personal use from https://github.com/pbondoer/vim-42header
