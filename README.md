@@ -20,6 +20,7 @@ mkdir -p ~/.vim/plugin && git clone https://github.com/romanmikh/vim_header.git 
 export HEADERUSER=<your_name>
 export HEADEREMAIL=<your_email>
 source ~/.bashrc
+rm -rf vim_header
 ```
 
 ## Credit
