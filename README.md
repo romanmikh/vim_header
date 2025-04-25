@@ -1,6 +1,6 @@
 # vim_header
 
-![headers](https://imgur.com/a/HcFphoE)
+![headers](https://imgur.com/K2qfbPe)
 
 ## Features
 * Comment strings adapt to many file formats (.c/.cpp/.py/.php/.js/...)
